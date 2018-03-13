@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import FilterableProductTable from '../FilterableProductTable/components';
 
 const Main = ({products}) => {
-  
   return (
     <FilterableProductTable products={products}/>
   )
